@@ -11,7 +11,7 @@ function msmPage(url) {
 //define each page type using regex patterns:
   var category = /.*\/sailing-clothing[\/|.html].*|.*\/sailing-footwear[\/|.html].*|.*\/dinghies[\/|.html].*|.*\/boat-safety[\/|.html].*|.*\/electronics[\/|.html].*|.*\/boat-maintenance-care[\/|.html].*|.*\/sailing-equipment[\/|.html].*|\/nautical-gifts[\/|.html].*|.*\/new-products.html.*/
   var product = /.*\.html.*/
-  var homepage = /^https:\/\/www\.mailspeedmarine\.com\/$/
+  var homepage = /^https:\/\/www\.[a-z]+\.com\/$/
   var clearance = /.*\/clearance\/.*|.*\/clearance\.html.*/
   var blog = /.*\/on-the-water\/.*/
 
